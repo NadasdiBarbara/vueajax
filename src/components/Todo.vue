@@ -3,7 +3,7 @@
       <ul>
           <TodoItem
           v-for="todo in todos"
-          v-bind:key="todo.title"
+          v-bind:key="todo.person"
           :todo="todo"
           @todo-item-changed="Changed"
           />
